@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RestController
 public class HelloController {
     
-    // routesのようなもの
+    // routesのようなもの→肥大しないように、各コントローラとViewsを合わせる
     
     @RequestMapping("/")
     public String index() {
