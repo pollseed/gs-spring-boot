@@ -1,3 +1,15 @@
+## buildMEMO
+
+ソース修正
+```
+$ gradle build
+$ java -jar build\libs\gs-spring-boot-0.1.0.jar
+```
+## TODO
+* hotdeployにする
+* Viewsを作成
+
+
 ---
 tags: [spring-boot, groovy]
 projects: [spring-boot]
